@@ -4,7 +4,7 @@
 **Alumno:** [Alessandro Baeza]  
 **Curso:** [Programación Backend (III): Testing y Escalabilidad Flex]  
 **Fecha:** [05/05/2026]  
-**Repositorio:** [URL del repositorio de GitHub]
+**Repositorio:** [https://github.com/Hunt-007/backend3/]
 
 ---
 

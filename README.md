@@ -1,4 +1,4 @@
-# Entregable Final - Tests funcionales + Docker image
+﻿# Entregable Final - Tests funcionales + Docker image
 
 ## 1) Estructura del proyecto
 
@@ -38,13 +38,13 @@ Este proyecto implementa una API en Node.js con Express para gestionar adopcione
 | **Dockerfile** optimizado (base ligera, capas, prod deps, puerto) | Cumple: `Dockerfile` (`node:20-alpine`, `npm ci --omit=dev`, usuario `node`, `EXPOSE 3000`) |
 | Build local y ejecucion en contenedor | Cumple: build local y healthcheck validados en contenedor (`adoptions-api:1.0.0`) |
 | Imagen en **DockerHub** + URL publica en README | Cumple: imagen publicada en `hunk007/adoptions-api` con tags `1.0.0` y `latest` |
-| Escaneo basico de vulnerabilidades | Pendiente manual: Docker Hub pestana **Vulnerabilities** tras subir, o `docker scout quickview` (Docker Desktop / CLI) |
+| Escaneo basico de vulnerabilidades | Cumple: escaneo ejecutado con `docker scout quickview hunk007/adoptions-api:1.0.0` |
 | **Swagger/OpenAPI** (`swagger-jsdoc` + Swagger UI) | Cumple: ver seccion **Documentacion API** mas abajo |
 | **CI/CD** (pipeline tests + imagen) | Cumple en parte: `.github/workflows/ci.yml` ejecuta `npm test` y `docker build` en cada push/PR a `main` o `master` |
 | Despliegue cloud (AWS/Azure/GCP) y monitoreo | No incluido (opcional avanzado); el README indica como correr contenedor localmente |
 | README con URL repo, URL imagen DockerHub, instrucciones y evidencias | Parcial: instrucciones listas; **URL del repositorio** y **URL DockerHub** debes completarlas cuando existan |
 
-**URL del repositorio (completar):** `[PENDIENTE — https://github.com/TU_USUARIO/adoptions-api]`  
+**URL del repositorio:** `https://github.com/Hunt-007/backend3`  
 **URL publica DockerHub:** `https://hub.docker.com/r/hunk007/adoptions-api`
 
 ## 3) Endpoints cubiertos por tests funcionales
@@ -145,6 +145,14 @@ docker push hunk007/adoptions-api:latest
 
 - En **Docker Hub**, con la imagen ya subida: abre el repositorio → pestana **Vulnerabilities** (o **Tags** → detalle del tag) y captura el resultado.
 - Opcional con CLI (requiere Docker): `docker scout quickview hunk007/adoptions-api:1.0.0`
+
+**Salida real obtenida con Docker Scout:**
+
+```txt
+Target             │  hunk007/adoptions-api:1.0.0  │    0C    11H     2M     2L
+Base image         │  node:20-alpine               │    0C    11H     2M     2L
+Updated base image │  node:24-alpine               │    0C     1H     3M     0L
+```
 
 ## 8) Evidencias para Google Docs
 
