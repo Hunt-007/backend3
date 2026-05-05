@@ -349,6 +349,4 @@ pm.test('Codigo PET_ALREADY_ADOPTED', () =>
 
 ### Runner
 
-En Postman: coleccion → **Run** → selecciona las peticiones en el orden de la tabla → Run Adoptions API. Si falla el POST 201 tras una corrida previa, reinicia `npm start` y vuelve a ejecutar.
-#   b a c k e n d 3  
- 
+En Postman: coleccion -> **Run** -> selecciona las peticiones en el orden de la tabla -> Run Adoptions API. Si falla el POST 201 tras una corrida previa, reinicia npm start y vuelve a ejecutar.
