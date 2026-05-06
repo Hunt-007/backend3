@@ -42,7 +42,7 @@ Este proyecto implementa una API en Node.js con Express para gestionar adopcione
 | **Swagger/OpenAPI** (`swagger-jsdoc` + Swagger UI) | Cumple: ver seccion **Documentacion API** mas abajo |
 | **CI/CD** (pipeline tests + imagen) | Cumple en parte: `.github/workflows/ci.yml` ejecuta `npm test` y `docker build` en cada push/PR a `main` o `master` |
 | Despliegue cloud (AWS/Azure/GCP) y monitoreo | No incluido (opcional avanzado); el README indica como correr contenedor localmente |
-| README con URL repo, URL imagen DockerHub, instrucciones y evidencias | Parcial: instrucciones listas; **URL del repositorio** y **URL DockerHub** debes completarlas cuando existan |
+| README con URL repo, URL imagen DockerHub, instrucciones y evidencias | Cumple: incluye URL del repositorio, URL DockerHub, instrucciones y evidencias |
 
 **URL del repositorio:** `https://github.com/Hunt-007/backend3`  
 **URL publica DockerHub:** `https://hub.docker.com/r/hunk007/adoptions-api`
