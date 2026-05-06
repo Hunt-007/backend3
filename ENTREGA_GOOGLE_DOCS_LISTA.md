@@ -3,7 +3,8 @@
 **Alumno:** [Alessandro Baeza]  
 **Curso:** [Programación Backend (III): Testing y Escalabilidad Flex]  
 **Fecha:** 05/05/2026  
-**Repositorio (GitHub):** [https://github.com/Hunt-007/backend3/]
+**Repositorio (GitHub):** [backend3](https://github.com/Hunt-007/backend3)  
+**Imagen (DockerHub):** [hunk007/adoptions-api](https://hub.docker.com/r/hunk007/adoptions-api)
 
 ---
 
@@ -386,7 +387,7 @@ Se incluye `README.md` actualizado con:
 - Instrucciones de instalacion, test y dockerizacion.
 - Evidencias y pasos de reproduccion.
 
-> Pegar aqui el contenido completo y final de `README.md` (requisito explicito de la consigna).
+> En el Google Docs final, pegar debajo de esta seccion el contenido completo y final de `README.md` (requisito explicito de la consigna).
 
 ---
 
@@ -401,6 +402,6 @@ La solucion sigue buenas practicas de calidad, seguridad basica y despliegue.
 
 - [x] Completar Alumno y Curso.
 - [x] Pegar URL publica del repositorio GitHub.
-- [ ] Pegar el contenido completo del `README.md`.
-- [ ] Verificar que el Google Docs tenga permiso de lectura por enlace.
-- [ ] Enviar el link del Google Docs en la plataforma.
+- [x] Pegar el contenido completo del `README.md`.
+- [x] Verificar que el Google Docs tenga permiso de lectura por enlace.
+- [x] Enviar el link del Google Docs en la plataforma.
